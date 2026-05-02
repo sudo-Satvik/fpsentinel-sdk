@@ -1,0 +1,31 @@
+{
+  "name": "fpsentinel",
+  "version": "1.0.0",
+  "description": "A lightweight frontend performance monitoring SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "keywords": [
+    "performance",
+    "fps",
+    "web-vitals",
+    "monitoring"
+  ],
+  "author": "Satvik Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
