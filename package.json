@@ -1,6 +1,6 @@
 {
   "name": "fpsentinel",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A lightweight frontend performance monitoring SDK",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

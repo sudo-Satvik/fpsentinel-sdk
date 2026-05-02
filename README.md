@@ -1,9 +1,6 @@
-<div style="display: flex; gap: 10px; align-items: center; margin-bottom: 20px">
-<img src="./assets/logo.ico" alt="FPSentinel Logo" width="40" height="40" />
-<span style="font-size: 28px; font-weight: bold">FPSentinel</span>
-</div>
+# FPSentinel
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.0-darkgreen.svg)](https://www.npmjs.com/package/fpsentinel)
+[![npm version](https://img.shields.io/badge/npm-v1.0.3-darkgreen.svg)](https://www.npmjs.com/package/fpsentinel)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **FPSentinel** is a lightweight, zero-config frontend performance monitoring SDK. Track real-time FPS, detect frame drops, capture Core Web Vitals, and observe long tasks with minimal overhead.
@@ -18,13 +15,13 @@ Install the SDK as a development dependency using your preferred package manager
 
 ```bash
 # npm
-npm install -D fpsentinel
+npm install fpsentinel
 
 # pnpm
-pnpm add -D fpsentinel
+pnpm add fpsentinel
 
 # yarn
-yarn add -D fpsentinel
+yarn add fpsentinel
 ```
 
 ### Quick Start
@@ -36,7 +33,7 @@ import { initFPSentinel } from 'fpsentinel';
 
 initFPSentinel({
   apiKey: 'YOUR_API_KEY',
-  endpoint: 'https://api.fpsentinel.com/v1/ingest', // Optional: your ingest endpoint
+  endpoint: 'https://fpsentinel.satviksharma.in/api/ingest', // Optional: your ingest endpoint
 });
 ```
 
@@ -109,4 +106,4 @@ Events are stored in memory and dispatched every 5 seconds (configurable) using 
 
 ## 🛡️ License
 
-MIT © [FPSentinel](https://fpsentinel.com)
+MIT © [FPSentinel](https://fpsentinel.satviksharma.in). Made with ❤️ by [Satvik Sharma](https://satviksharma.in)
